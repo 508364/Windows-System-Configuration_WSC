@@ -1,0 +1,2 @@
+[console_scripts]
+wsc = wsc:main

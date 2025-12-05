@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: Windows-System-Configuration
+Version: 0.1.0
+Summary: Windows System Configuration (WSC) - A Python library for retrieving Windows system configuration and information
+Home-page: https://github.com/508364/Windows-System-Configuration_WSC
+Author: 508364
+Author-email: github508364@qq.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: System :: Hardware
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+Windows System Configuration (WSC) is a comprehensive library to get detailed information about Windows systems, including hardware, software, network, and security configurations.
