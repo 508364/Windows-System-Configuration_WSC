@@ -1,2 +1,1 @@
-psutil>=5.8.0
 setuptools>=80.7.1
