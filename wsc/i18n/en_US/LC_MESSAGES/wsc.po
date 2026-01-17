@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows-System-Configuration 0.1.1\n"
+"Report-Msgid-Bugs-To: github508364@qq.com\n"
+"POT-Creation-Date: 2026-01-17 10:00+0800\n"
+"PO-Revision-Date: 2026-01-17 10:00+0800\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Windows System Configuration (WSC) v"
+msgstr "Windows System Configuration (WSC) v"
+
+msgid "使用方法: wsc <命令> [选项]"
+msgstr "Usage: wsc <command> [options]"
+
+msgid "可用命令:"
+msgstr "Available commands:"
+
+msgid "  system      - 获取系统基本信息"
+msgstr "  system      - Get basic system information"
+
+msgid "  hardware    - 获取硬件信息"
+msgstr "  hardware    - Get hardware information"
+
+msgid "  configuration - 获取系统配置信息"
+msgstr "  configuration - Get system configuration information"
+
+msgid "  software    - 获取软件信息"
+msgstr "  software    - Get software information"
+
+msgid "  network     - 获取网络配置信息"
+msgstr "  network     - Get network configuration information"
+
+msgid "  security    - 获取安全信息"
+msgstr "  security    - Get security information"
+
+msgid "  all         - 获取所有系统信息"
+msgstr "  all         - Get all system information"
+
+msgid "  version     - 显示版本信息"
+msgstr "  version     - Display version information"
+
+msgid "\n可用选项:" 
+msgstr "\nAvailable options:"
+
+msgid "  system <选项>:"
+msgstr "  system <options>:"
+
+msgid "    basic      - 只显示基本系统信息"
+msgstr "    basic      - Show only basic system information"
+
+msgid "    os         - 只显示操作系统详细信息"
+msgstr "    os         - Show only detailed OS information"
+
+msgid "  hardware <选项>:"
+msgstr "  hardware <options>:"
+
+msgid "    cpu        - 只显示CPU信息"
+msgstr "    cpu        - Show only CPU information"
+
+msgid "    memory     - 只显示内存信息"
+msgstr "    memory     - Show only memory information"
+
+msgid "    disks      - 只显示磁盘信息"
+msgstr "    disks      - Show only disk information"
+
+msgid "    gpu        - 只显示GPU信息"
+msgstr "    gpu        - Show only GPU information"
+
+msgid "    motherboard - 只显示主板信息"
+msgstr "    motherboard - Show only motherboard information"
+
+msgid "  network <选项>:"
+msgstr "  network <options>:"
+
+msgid "    adapters   - 只显示传统网络适配器信息"
+msgstr "    adapters   - Show only traditional network adapter information"
+
+msgid "    nic        - 只显示优化的网卡信息（推荐）"
+msgstr "    nic        - Show only optimized NIC information (recommended)"
+
+msgid "    ip         - 只显示IP地址信息"
+msgstr "    ip         - Show only IP address information"
+
+msgid "    stats      - 只显示网络统计信息"
+msgstr "    stats      - Show only network statistics"
+
+msgid "    connections - 只显示网络连接信息"
+msgstr "    connections - Show only network connections"
+
+msgid "  security <选项>:"
+msgstr "  security <options>:"
+
+msgid "    users      - 只显示用户账户信息"
+msgstr "    users      - Show only user account information"
+
+msgid "    groups     - 只显示用户组信息"
+msgstr "    groups     - Show only user group information"
+
+msgid "    current    - 只显示当前用户信息"
+msgstr "    current    - Show only current user information"
+
+msgid "    sid        - 只显示当前用户SID信息"
+msgstr "    sid        - Show only current user SID information"
+
+msgid "    uac        - 只显示UAC设置"
+msgstr "    uac        - Show only UAC settings"
+
+msgid "  --help, -h  - 显示帮助信息"
+msgstr "  --help, -h  - Display help information"
+
+msgid "  --lang, -l  - 设置显示语言（zh_CN 或 en_US）"
+msgstr "  --lang, -l  - Set display language (zh_CN or en_US)"
+
+msgid "\n使用 wsc --help 查看详细帮助"
+msgstr "\nUse wsc --help for detailed help"
+
+msgid "未知命令: %s"
+msgstr "Unknown command: %s"
+
+msgid "使用 wsc --help 查看可用命令"
+msgstr "Use wsc --help to see available commands"

@@ -156,6 +156,51 @@ class SecurityInfo:
             "domain": ""
         }
     
+    def get_current_user_sid(self):
+        """使用wmic和whoami命令获取当前用户的用户名和SID"""
+        # 使用whoami获取当前用户名
+        current_user = self.get_current_user()
+        username = current_user['username']
+        
+        # 提取用户名（去掉域名部分）
+        if '\\' in username:
+            _, user = username.split('\\', 1)
+        else:
+            user = username
+        
+        # 使用wmic获取所有用户的name和sid
+        output = self._run_cmd('wmic useraccount get name,sid')
+        
+        # 解析输出，查找当前用户的SID
+        lines = output.strip().split('\n')
+        for line in lines[1:]:  # 跳过标题行
+            line = line.strip()
+            if not line:
+                continue
+            
+            # 提取用户名和SID
+            # 用户名和SID之间有多个空格分隔
+            parts = line.split()
+            if len(parts) >= 2:
+                user_name = parts[0]
+                sid = ' '.join(parts[1:])
+                
+                if user_name == user:
+                    return {
+                        "username": username,
+                        "name": user,
+                        "sid": sid,
+                        "domain": current_user['domain']
+                    }
+        
+        # 如果没有找到，返回基本信息
+        return {
+            "username": username,
+            "name": user,
+            "sid": "",
+            "domain": current_user['domain']
+        }
+    
     def get_uac_settings(self):
         """获取UAC（用户账户控制）设置"""
         uac_reg_path = r"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System"

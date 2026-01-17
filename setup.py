@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="Windows-System-Configuration",
-    version="0.1.0",
+    version="0.1.1",
     author="508364",
     author_email="github508364@qq.com",
     description="Windows System Configuration (WSC) - A Python library for retrieving Windows system configuration and information",

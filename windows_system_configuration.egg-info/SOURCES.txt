@@ -12,6 +12,7 @@ windows_system_configuration.egg-info/top_level.txt
 wsc/__init__.py
 wsc/configuration.py
 wsc/hardware.py
+wsc/i18n.py
 wsc/network.py
 wsc/security.py
 wsc/software.py

@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Windows-System-Configuration 0.1.1\n"
+"Report-Msgid-Bugs-To: github508364@qq.com\n"
+"POT-Creation-Date: 2026-01-17 10:00+0800\n"
+"PO-Revision-Date: 2026-01-17 10:00+0800\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Windows System Configuration (WSC) v"
+msgstr "Windows System Configuration (WSC) v"
+
+msgid "使用方法: wsc <命令> [选项]"
+msgstr "使用方法: wsc <命令> [选项]"
+
+msgid "可用命令:"
+msgstr "可用命令:"
+
+msgid "  system      - 获取系统基本信息"
+msgstr "  system      - 获取系统基本信息"
+
+msgid "  hardware    - 获取硬件信息"
+msgstr "  hardware    - 获取硬件信息"
+
+msgid "  configuration - 获取系统配置信息"
+msgstr "  configuration - 获取系统配置信息"
+
+msgid "  software    - 获取软件信息"
+msgstr "  software    - 获取软件信息"
+
+msgid "  network     - 获取网络配置信息"
+msgstr "  network     - 获取网络配置信息"
+
+msgid "  security    - 获取安全信息"
+msgstr "  security    - 获取安全信息"
+
+msgid "  all         - 获取所有系统信息"
+msgstr "  all         - 获取所有系统信息"
+
+msgid "  version     - 显示版本信息"
+msgstr "  version     - 显示版本信息"
+
+msgid "\n可用选项:" 
+msgstr "\n可用选项:"
+
+msgid "  system <选项>:"
+msgstr "  system <选项>:"
+
+msgid "    basic      - 只显示基本系统信息"
+msgstr "    basic      - 只显示基本系统信息"
+
+msgid "    os         - 只显示操作系统详细信息"
+msgstr "    os         - 只显示操作系统详细信息"
+
+msgid "  hardware <选项>:"
+msgstr "  hardware <选项>:"
+
+msgid "    cpu        - 只显示CPU信息"
+msgstr "    cpu        - 只显示CPU信息"
+
+msgid "    memory     - 只显示内存信息"
+msgstr "    memory     - 只显示内存信息"
+
+msgid "    disks      - 只显示磁盘信息"
+msgstr "    disks      - 只显示磁盘信息"
+
+msgid "    gpu        - 只显示GPU信息"
+msgstr "    gpu        - 只显示GPU信息"
+
+msgid "    motherboard - 只显示主板信息"
+msgstr "    motherboard - 只显示主板信息"
+
+msgid "  network <选项>:"
+msgstr "  network <选项>:"
+
+msgid "    adapters   - 只显示传统网络适配器信息"
+msgstr "    adapters   - 只显示传统网络适配器信息"
+
+msgid "    nic        - 只显示优化的网卡信息（推荐）"
+msgstr "    nic        - 只显示优化的网卡信息（推荐）"
+
+msgid "    ip         - 只显示IP地址信息"
+msgstr "    ip         - 只显示IP地址信息"
+
+msgid "    stats      - 只显示网络统计信息"
+msgstr "    stats      - 只显示网络统计信息"
+
+msgid "    connections - 只显示网络连接信息"
+msgstr "    connections - 只显示网络连接信息"
+
+msgid "  security <选项>:"
+msgstr "  security <选项>:"
+
+msgid "    users      - 只显示用户账户信息"
+msgstr "    users      - 只显示用户账户信息"
+
+msgid "    groups     - 只显示用户组信息"
+msgstr "    groups     - 只显示用户组信息"
+
+msgid "    current    - 只显示当前用户信息"
+msgstr "    current    - 只显示当前用户信息"
+
+msgid "    sid        - 只显示当前用户SID信息"
+msgstr "    sid        - 只显示当前用户SID信息"
+
+msgid "    uac        - 只显示UAC设置"
+msgstr "    uac        - 只显示UAC设置"
+
+msgid "  --help, -h  - 显示帮助信息"
+msgstr "  --help, -h  - 显示帮助信息"
+
+msgid "\n使用 wsc --help 查看详细帮助"
+msgstr "\n使用 wsc --help 查看详细帮助"
+
+msgid "未知命令: %s"
+msgstr "未知命令: %s"
+
+msgid "使用 wsc --help 查看可用命令"
+msgstr "使用 wsc --help 查看可用命令"
